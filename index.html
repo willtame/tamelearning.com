@@ -45,6 +45,30 @@ body {
 }
 </style>
 
+<style>
+
+.el {
+    background-color:rgb(40, 100, 180);
+    color: white;
+    display: grid;
+    place-content: center;
+}
+
+.header {
+    grid-area: hd;
+}
+
+.sidebar {
+    grid-area: sb;
+    background-color: aquamarine;
+}
+
+.footer {
+    grid-area: ft;
+
+}
+
+</style>
 
 </head>
 <p class="Henry-Minecraft">
@@ -74,6 +98,7 @@ body {
 }
 
 .container {
+    grid-area: mn;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 150px;
