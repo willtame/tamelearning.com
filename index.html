@@ -20,7 +20,6 @@
 </body>
 
 <body>
-    <header class="header el"><h1><Header></h1></header>
     <main class="container">
         <div class="box">1</div>
         <div class="box">2</div>
@@ -29,21 +28,7 @@
         <div class="box">5</div>
         <div class="box">6</div>
     </main>
-    <aside class="sidebar el"><h2>sidebar</h2></aside>
-    <footer class="footer el"><h2>footer</h2></footer>
 </body>
-
-<style>
-body {
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    grid-auto-rows: 75px auto 75px;
-    grid-template-areas:
-    "hd hd hd hd hd hd hd hd hd"
-    "sb mn mn mn mn mn mn mn mn"
-    "ft ft ft ft ft ft ft ft ft"
-}
-</style>
 
 <style>
 
@@ -98,7 +83,6 @@ body {
 }
 
 .container {
-    grid-area: mn;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 150px;
