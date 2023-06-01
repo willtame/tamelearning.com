@@ -46,11 +46,13 @@
 }
 .box:nth-child(2) {
     background-color: rgb(9, 63, 9);
+    display: grid;
     place-content: center;
 }
 
 .box:nth-child(3) {
     background-color: rgb(68, 68, 218);
+    display: grid;
     place-content: center;
 }
 
