@@ -15,8 +15,9 @@
 
 .backdrop {
     text-align: center;
-    size: 0cap;
-    margin: 30px;
+    height: 40px;
+    width: auto;
+    margin: 0%;
 }
 
 .Henry-Minecraft {
