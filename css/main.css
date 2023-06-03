@@ -19,61 +19,6 @@
     margin: 30px;
 }
 
-.container {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    row-gap: 5em;
-    column-gap: 5rem;
-    height: 60px;
-}
-
-.box {
-    background-color: black;
-    color: blanchedalmond;
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-    border-radius: 10px;
-}
-
-.box:first-child {
-    background-color: orange;
-    display: grid;
-    place-content: center;
-}
-.box:nth-child(2) {
-    background-color: rgb(9, 63, 9);
-    display: grid;
-    place-content: center;
-}
-
-.box:nth-child(3) {
-    background-color: rgb(68, 68, 218);
-    display: grid;
-    place-content: center;
-}
-
-.box:nth-child(4) {
-    background-color: rgb(223, 100, 63);
-    display: grid;
-    place-content: center;
-}
-
-.box:nth-child(5) {
-    background-color: rgb(144, 69, 230);
-    display: grid;
-    place-content: center;
-}
-
-.box:nth-child(6) {
-    background-color: rgb(255, 255, 255);
-    display: grid;
-    place-content: center;
-}
-
 .Henry-Minecraft {
     text-align: center;
 }
@@ -86,4 +31,9 @@
 
 .columns p {
   margin-top: 0;
+}
+
+.twodrawing {
+    height: 50px;
+    width: auto;
 }
