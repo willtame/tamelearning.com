@@ -28,6 +28,8 @@
     columns: 4 250px;
     column-rule: 3px solid #000000;
     column-gap: 3rem;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .columns p {
