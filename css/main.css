@@ -34,6 +34,15 @@
   margin-top: 0;
 }
 
+.columns h2 {
+    margin-top: o;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    break-inside: avoid;
+  
+  }
+  
 .twodrawing {
     height: 50px;
     width: auto;
