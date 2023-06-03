@@ -70,3 +70,7 @@
 .Henry-Minecraft {
     text-align: center;
 }
+
+.columns {
+    column-count: 4;
+}
