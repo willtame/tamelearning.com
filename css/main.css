@@ -79,5 +79,11 @@
 }
 
 .columns {
-    column-count: 4;
+    columns: 4 250px;
+    column-rule: 3px solid #000000;
+    column-gap: 3rem;
+}
+
+.columns p {
+  margin-top: 0;
 }
