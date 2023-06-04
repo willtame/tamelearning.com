@@ -1,35 +1,14 @@
 
-.web-title {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    font-weight: lighter;
-    text-align: center;
-}
 
-.construction {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: rgb(240, 138, 13);
-    text-align: center;
-}
 
-.backdrop {
-    text-align: center;
-    height: 40px;
-    width: auto;
-    margin: 0%;
-}
-
-.Henry-Minecraft {
-    text-align: center;
+.column1of3, .column2of3, .column3of3 {
+    margin-right: 20px;
 }
 
 .columns {
     columns: 4 250px;
     column-rule: 3px solid #000000;
     column-gap: 3rem;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 .columns p {
@@ -37,14 +16,14 @@
 }
 
 .columns h2 {
-    margin-top: o;
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    break-inside: avoid;
-  }
-  
-.twodrawing {
-    height: 50px;
-    width: auto;
+  margin-top: o;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  break-inside: avoid;
+
 }
+
+.welcome {
+    text-align: center;
+} 
