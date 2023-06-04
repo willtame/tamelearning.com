@@ -1,4 +1,8 @@
 
+h1 {
+    text-align: center;
+}
+
 .columns {
     columns: 4 250px;
     column-rule: 3px solid #000000;
