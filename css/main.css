@@ -23,34 +23,3 @@
     text-align: center;
     color: #aa0000;
 } 
-
-
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 150px;
-    row-gap: 5em;
-    column-gap: 5rem;
-}
-
-.box {
-background-color: black;
-color: blanchedalmond;
-padding: 0%;
-margin: 0%;
-box-sizing: border-box;
-}
-
-.box:first-child {
-    background-color: orange;
-    display: grid;
-    place-content: center;
-}
-.box:nth-child(2) {
-    background-color: rgb(9, 63, 9);
-}
-
-.box:nth-child(3) {
-    background-color: rgb(68, 68, 218);
-}
