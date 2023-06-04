@@ -1,9 +1,4 @@
 
-
-.column1of3, .column2of3, .column3of3 {
-    margin-right: 20px;
-}
-
 .columns {
     columns: 4 250px;
     column-rule: 3px solid #000000;
