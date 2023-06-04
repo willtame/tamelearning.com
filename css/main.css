@@ -1,5 +1,7 @@
 img {
     border-radius: 8px;
-    height: 30px;
-    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
