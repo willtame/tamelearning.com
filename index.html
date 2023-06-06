@@ -28,6 +28,10 @@
     <div class="left" style="background-color:#f5affc;">Framework</div>
     <div class="middle" style="background-color:#fff7ad;">Strategies</div>  
     <div class="right" style="background-color:#95ccff;">Resources</div>
+
+    <div class="left2" style="background-color:#ffffff;">Framework</div>
+    <div class="middle2" style="background-color:#000000;">Strategies</div>  
+    <div class="right2" style="background-color:#0d411a;">Resources</div>
     
     <div class="footer">
     <p>Footer</p>
@@ -91,22 +95,25 @@ body {
 
 .left,
 .middle,
-.right {
+.right
+.left2,
+.middle2,
+.right2 {
   padding: 10px;
   height: 300px;
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.left {
+.left, .left2 {
   grid-area: left;
 }
 
-.middle {
+.middle, .middle2 {
   grid-area: middle;
 }
 
-.right {
+.right, .right2 {
   grid-area: right;
 }
 
