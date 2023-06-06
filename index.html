@@ -99,7 +99,13 @@ body {
   font-stretch: semi-expanded;
 }
 
-
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header header header header header' 
+    'left left middle middle right right'
+    'footer footer footer footer footer footer';
+} 
 
 .left,
 .middle,
@@ -167,7 +173,9 @@ body {
   margin-right: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
+  border-radius: 5px;
 }
+
 @media (max-width: 600px) {
   .grid-container3  {
     grid-template-areas: 
