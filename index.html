@@ -32,14 +32,6 @@
     <p>Footer</p>
     </div>
   </div>
-</body>
-
-<body>
-    <div class="grid-container2">
-    <div class="left2" style="background-color:#ffffff;">Framework</div>
-    <div class="middle2" style="background-color:#000000;">Strategies</div>  
-    <div class="right2" style="background-color:#0d411a;">Resources</div>
-</body>
 
 <body>
   <p>
@@ -91,8 +83,18 @@
   height: 200px;
   margin-left: 10px;
   margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-
+@media (max-width: 600px) {
+  .grid-container3  {
+    grid-template-areas: 
+      'header header header header header header' 
+      'left left left left left left' 
+      'middle middle middle middle middle middle'
+      'footer footer footer footer footer footer';
+  }
+}
 
 
 
@@ -144,32 +146,6 @@ body {
   height: 300px;
   margin-left: 10px;
   margin-right: 10px;
-}
-
-
-.grid-container2 {
-  display: grid;
-  grid-template-areas:  
-    'left left middle middle right right'
-} 
-
-.left2,
-.middle2,
-.right2 {
-  padding: 10px;
-  height: 300px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-@media (max-width: 600px) {
-  .grid-container2  {
-    grid-template-areas:
-      'header header header header header header' 
-      'left left left left left left' 
-      'middle middle middle middle middle middle'
-      'footer footer footer footer footer footer';
-  }
 }
 
 
