@@ -8,6 +8,7 @@
     <title>Tame Learning</title>
     <body style="background-color:rgb(25, 123, 202)">
   </body>
+
 <h1>
 <p class="welcome">
   Welcome to Tame Learning
@@ -18,20 +19,6 @@
   <img src="images/image 1.png" alt="image 1">
 </body>
 
-<body>
-
-  <div class="grid-container">
-    <div class="header">This site is coming soon!</div>
-    <div class="left" style="background-color:#fff7ad;">Framework</div>
-    <div class="middle" style="background-color:#95ccff">Strategies</div>  
-    <div class="right" style="background-color:#ffffff;">Resources</div>
-
-    <div class="footer">
-    <p class="unlock">Unlock your potential!</p>
-    </div>
-  </div>
-
-<body>
   <p>
     <p>Guide differentiation in the classroom and display which language steps to focus on. Define language learners. This covers a broad spectrum, from children who are just beginning their English Language Learning journey, to children for whom the second language English is so proficient. We implement global strategies to ensure that language learners are supported in accessing the curriculum throughout their language-learning journey.</p>
     <p>Resize the browser window to see the responsive effect.</p>
@@ -46,28 +33,22 @@
  </p>
 </body>
 
-<body>
-  <div class="grid-container3">
-    <div style="background-color: #fff7ad;" class="grid-item">1</div>
-    <div style="background-color: #95ccff;" class="grid-item">2</div>
-    <div style="background-color: #ffffff;" class="grid-item">3</div>  
-    <div style="background-color: #fff7ad;" class="grid-item">4</div>
-    <div style="background-color: #95ccff;" class="grid-item">5</div>
-    <div style="background-color: #ffffff;" class="grid-item">6</div>  
-    <div style="background-color: #fff7ad;" class="grid-item">7</div>
-    <div style="background-color: #95ccff;" class="grid-item">8</div>
-    <div style="background-color: #ffffff;" class="grid-item">9</div>  
-  </div>
-</body>
-
 <p>Let's see how to make another grid</p>
 
 <body>
   <div style="
+    margin-top: 20px;
     display:grid;
-    grid-template-columns: 1fr 1fr;">
-    <div style="background-color: #048500;" >space 1</div>
-    <div style="background-color: #5a3f1b;" >space 2</div>
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px; 
+    " class="new-grid">
+    <div style="background-color: #fff7ad;; height: 100px;" >space 1</div>
+    <div style="background-color: #95ccff; height: 100px;" >space 2</div>
+    <div style="background-color: #ffffff; height: 100px;" >space 3</div>
+    <div style="background-color: #fff7ad;; height: 100px;" >space 4</div>
+    <div style="background-color: #95ccff; height: 100px;" >space 5</div>
+    <div style="background-color: #ffffff; height: 100px;" >space 6</div>
   </div>
 </body>
 
@@ -88,7 +69,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    width: 28%;
     margin-bottom: 10px;
 }
 
@@ -96,108 +77,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.header {
-  grid-area: header;
-  background-color: rgb(17, 71, 116);
-  padding: 30px;
-  text-align: center;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  height: 50px;
-  color: rgb(255, 255, 255)
-  font-weight: bold;
-  font-stretch: semi-expanded;
-}
-
-.grid-container {
+.new-grid {
   display: grid;
-  grid-template-areas: 
-    'header header header header header header' 
-    'left left middle middle right right'
-    'footer footer footer footer footer footer';
-} 
-
-.left,
-.middle,
-.right {
-  padding: 10px;
-  height: 200px;
-  margin-left: 10px;
-  margin-right: 10px;
-  text-align: center;
-  font-size: large;
+  grid-template-columns: 1fr 1fr 1fr;
 }
-
-.left {
-  grid-area: left;
-}
-
-.middle {
-  grid-area: middle;
-}
-
-.right {
-  grid-area: right;
-}
-
-.footer {
-  grid-area: footer;
-  background-color: rgb(17, 71, 116);
-  padding: 10px;
-  text-align: center;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  height: 50px;
-}
-
-@media (max-width: 600px) {
-  .grid-container  {
-    grid-template-areas: 
-      'header header header header header header' 
-      'left left left left left left' 
-      'middle middle middle middle middle middle'
-      'footer footer footer footer footer footer';
-  }
-}
+ 
 
 .henryvideo {
   text-align: center;
 }
 
-.grid-container3 {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
-}
-.grid-item {
-  background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-  padding: 10px;
-  height: 200px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  border-width: 4px;
-  border-color: rgb(17, 71, 116);
-}
-
-@media (max-width: 600px) {
-  .grid-container3  {
-    grid-template-areas: 
-      'header header header header header header' 
-      'left left left left left left' 
-      'middle middle middle middle middle middle'
-      'footer footer footer footer footer footer';
-  }
-}
 
 .unlock {
   color: white;
