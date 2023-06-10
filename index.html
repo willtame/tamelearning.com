@@ -1,42 +1,47 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-<link rel="stylesheet" href="css/main.css"/>
-</head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <body>
-    <title>Tame Learning</title>
+<title>background</title>
     <body style="background-color:rgb(25, 123, 202)">
-  </body>
+    </body>
+    
+</head>
+<body>
 
-<h1>
-<p class="welcome">
-  Welcome to Tame Learning
-</p>
-</h1>
+<div class="header">
+  <h1>Tame Learning</h1>
+  <p>WELCOME</p>
+</div>
 
-<p style="text-align: center; font-size: 16px;">
-  We implement global strategies to ensure that language learners are supported in accessing the curriculum throughout their language-learning journey.
-</p>
+<div class="topnav">
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+  <a href="#">Link 4</a>
+</div>
 
-<body class="image 1">
-  <img src="images/image 1.png" alt="image 1">
-</body>
-
-  <p>
+<div class="row">
+  <div class="column">
+    <h2>Global Strategies</h2>
+    <p>We implement global strategies to ensure that language learners are supported in accessing the curriculum throughout their language-learning journey.</p>
+  </div>
+  
+  <div class="column">
+    <h2>Target Language</h2>
     <p>Guide differentiation in the classroom and display which language steps to focus on. Define language learners. This covers a broad spectrum, from children who are just beginning their English Language Learning journey, to children for whom the second language English is so proficient.</p>
-    <p><strong>Note:</strong>A cross-curricular tool which helps practitioners observe, document, and accelerate the ways students learn in school. Measure the language development stages in speaking, listening, reading and writing.</p>
-  </p>
-</body>
+  </div>
+  
+  <div class="column">
+    <h2>Toolkit</h2>
+    <p>A cross-curricular tool which helps practitioners observe, document, and accelerate the ways students learn in school. Measure the language development stages in speaking, listening, reading and writing.</p>
+  </div>
+</div>
 
-</body>
- <p class="henryvideo" style="font-weight: bold;">
-    <a href="https://www.youtube.com/watch?v=OZjKuhFpQg4" target="_blank">
-      Link to Henry's House Video</a>
- </p>
-</body>
-
-<p style="color: #ffffff; font-weight: bolder; text-align: center; font-size: larger;">
+<p style="color: #000000; font-weight: bolder; text-align: center; font-size: larger;">
   <strong>This website is under construction!</strong>
 </p>
 
@@ -60,45 +65,97 @@
   </div>
 </body>
 
-<head>
+</body>
+
+</body>
+<p class="henryvideo" style="font-weight: bold;">
+   <a href="https://www.youtube.com/watch?v=OZjKuhFpQg4" target="_blank">
+     Link to Henry's House Video</a>
+</p>
+</body>
 
 <style>
-* {
-  box-sizing: border-box;
-}
-
-.welcome {
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .header {
+    background-color: #f1f1f1;
+    padding: 20px;
     text-align: center;
     font-weight: bold;
-}
+  }
 
-img {
-    border-radius: 8px;
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 28%;
-    margin-bottom: 10px;
-}
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .new-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  img {
+      border-radius: 8px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 28%;
+      margin-bottom: 10px;
+  }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.new-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
- 
-.henryvideo {
+  .henryvideo {
   text-align: center;
-}
+  }
 
-.unlock {
+  .unlock {
   color: white;
   font-weight: bold;
   text-align: center;
-}
+  }
 
-</style>
-</head>
+  
+  </style>
+
+</html>
